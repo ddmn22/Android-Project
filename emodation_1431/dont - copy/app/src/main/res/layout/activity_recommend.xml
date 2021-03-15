@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RecommendActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="30dp"
+        android:fontFamily="@font/dxbarunscript"
+        android:textStyle="bold"
+        android:text="음악, 책, 영화 중 \n 원하는 것을 골라보세요"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/button_music"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:background="#bdd7ee"
+        android:text="음악"
+        android:textStyle="bold"
+        android:fontFamily="@font/dxbarunscript"
+        android:textColor="#000000"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/button_movie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:background="#bdd7ee"
+        android:text="영화"
+        android:fontFamily="@font/dxbarunscript"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/button_book"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginBottom="30dp"
+        android:background="#bdd7ee"
+        android:text="책"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:fontFamily="@font/dxbarunscript"
+        android:textSize="30sp" />
+
+</LinearLayout>

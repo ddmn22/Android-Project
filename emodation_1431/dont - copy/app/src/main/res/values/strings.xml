@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">donttouch_real_sus</string>
+    <string name="emotion_result_format">3. 당신의 현재 감정은 \"%s\" 입니다</string>
+    <string name="emotion_not_found">3. 감정을 분석 할 수 없습니다</string>
+</resources>
